@@ -34,6 +34,5 @@ mvn clean test -Dtest=ApprealDemo
 ```
 
 ## Reports and logs
-Allure report will be generated and opened in browser.
-TestNg report will be generated in ```target/surefire-reports/UI Automation Suite``` directory.
+Original Karate report will be generated in ```target/surefire-reports/``` directory.
 

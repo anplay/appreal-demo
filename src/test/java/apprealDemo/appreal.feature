@@ -7,6 +7,9 @@ Feature: Verify tech tasks
     * request "{}"
     When method post
     Then assert responseStatus == 200
+    * match response.ip == '#present'
+
+
 
   Scenario: HealthCheck
     Given url "https://records-service-dev-eu-west-1.carbyneapi-dev.com/External-Services/HealthCheck"
